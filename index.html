@@ -10,26 +10,25 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
         <script src="https://kit.fontawesome.com/49b2d3279b.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <title>SKWIC_Webpages</title>
     </head>
-    <header>
-        <div class="" id="top">
-            <div class="logo" id="arrange">
-                <img src="logo.png">
-            </div>
-            <div class="nav" id="arrange">
-                <ul>
-                    <li><a href="#title">Title</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#activity">Activity</a></li>
-                    <li><a href="#member">Member</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
     <body>
+        <div class="" id="top">
+                <div class="logo" id="arrange">
+                    <img src="logo.png">
+                </div>
+                <div class="nav" id="arrange">
+                    <ul>
+                        <li><a href="#title">Title</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#activity">Activity</a></li>
+                        <li><a href="#member">Member</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        </div>
         <div class="fixed-background introduction" id="title">
             <div class="intro">
                 <div class="sns">
@@ -66,29 +65,64 @@
                 </div>
             </div>
         </div>
+
+        <div id="member">
+            <h2 class="sub_title">Member</h2>
+            <div class="intro-up">
+                <div class="intro-image">
+                    <img src="woojin.jpg">
+                </div>
+                <div class="intro-text">
+                    <p>ニックネーム : マルちゃん<br>
+                        出身 : 韓国　水原市<br>
+                        好きなもの : 柴犬 & カフェ<br>
+                        一言 : カフェ大好きです！</p>
+                </div>
+            </div>
+            <div class="intro-down">
+                <div class="intro-text">
+                    <p>ニックネーム : イェウォン<br>
+                        出身 : 韓国　ソウル市<br>
+                        好きなもの : Youtube<br>
+                        一言 : K-POPオタクです！！</p>
+                </div>
+                <div class="intro-image">
+                    <img src="yewon.jpg">
+                </div>
+            </div>
+            <h3 class="coming_soon">Coming soon...</h3>
+        </div>
+
         <div class="fixed-background news" id="news">
             <div class="title">
                 <h2 class="sub_title">NEWS</h2>
                 <img src="skwic_sen.png">
             </div>
-            <div class="about_content">
-                <div class="intro-text">
+            <div class="about_content"　id="wrap">
+                <div class="intro-text　txt-show">
                     <p>2022.02.26【今月の予定】<br>
                         2022.03.02【新歓】<br>
                         2022.03.11【韓国語教室】
                     </p>
                 </div>
+                <div class="txt-hide">
+                    <img src="skwic_3.png" alt="">
+                    <img src="skwic_2.png" alt="">
+                    <img src="skwic_1.png" alt="">
+                </div>
+                <button class="more"></button>
+                </div>
             </div>
         </div>
         <div id="access">
-            <h2 class="title">Access</h2>
+            <h2 class="sub_title">Access</h2>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.695276177498!2d139.42508551525083!3d35.38801308026361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185394acdc07c3%3A0xc281fed97a64744a!2sKeio%20University%20Shonan%20Fujisawa%20Campus!5e0!3m2!1sen!2sjp!4v1647261168701!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
 
         <div id="contact">
-            <h2 class="title">Contact</h2>
+            <h2 class="sub_title">Contact</h2>
             <div class="contact_image">
                 <img src="skwic_contact.jpg">
             </div>
