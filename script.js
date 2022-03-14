@@ -24,9 +24,10 @@ $(function(){
               }],
               respondTo: 'slider'
             });
+         $(".more").on("click", function() {
+              $(this).toggleClass("on-click");
+              $(".txt-hide").slideToggle(1000);
+              $("#access").css('margin-top','200px');
+              $(".txt-hide").css('diplay','flex');
+         });
         });
-
-        $(".more").on("click", function() {
-          $(this).toggleClass("on-click");
-          $(".txt-hide").slideToggle(1000);
-          });

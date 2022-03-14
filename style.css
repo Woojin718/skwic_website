@@ -128,11 +128,12 @@ body {
     align-items: center;
 }
 .news .about_content{
-    width: 600px;
+    width: 1000px;
     height: 200px;
 }
 .news .about_content p{
     text-align: center;
+    margin-bottom: 50px;
 }
 .intro-image{
     width: 350px;
@@ -207,14 +208,9 @@ body {
     margin-bottom: 70px;
 }
 .txt-hide img{
-    display: block;
     width: 300px;
     height: 300px;
-}
-.txt-hide{
-    display: none;
-}
-    
+}   
 button.more {
     width: 120px;
     margin: 20px auto;
