@@ -20,14 +20,12 @@
     font-family: "font4";
     src: url(fonts/Futura-Lig.ttf);
 }
-.fixed-background {
-    min-height: 100vh;
-    background-image: url(skwic_back.png);
-    background-repeat: no-repeat;
+body {
+    background-image: url("skwic_back.png");
     background-size: cover;
-    background-position: center;                             /* 画像のサイズを指定    */
-    width:100%;                                            /* 横幅のサイズを指定    */
-    height:400px;      
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 
 #top {
@@ -46,6 +44,8 @@
 #top ul{
     width: 900px;
     padding: 30px 50px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #top ul li{
@@ -69,6 +69,64 @@
 #arrange{
     display: flex;
    flex-wrap: wrap;
+}
+.intro{
+    display: flex;
+    margin: 60px;
+}
+.sns{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 180px;
+}
+.size{
+    margin-bottom: 100px;
+}
+
+.pic{
+    margin: 30px;
+}
+.pic img{
+    width: 450px;
+    height: 550px;
+}
+
+.title{
+    margin: auto;
+    font-size: 30px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_content{
+    width: 600px;
+    height: 600px;
+}
+.about .about_content h2{
+    font-size: 24px;
+    text-align: center;
+}
+.about .about_content img{
+    width: 150%;
+}
+.about .about_content p{
+    width: 150%;
+    text-align: center;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news .about_content p{
+    width: 150%;
+    text-align: center;
 }
 .up{
     position: absolute;
@@ -109,6 +167,9 @@
     margin-top: 10px;    
     font-size: 53px;
     padding: 40px; 
+}
+.title{
+    align-items: center;
 }
 .title img{
     width: 300px;
