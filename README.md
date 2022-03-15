@@ -1,2 +1,0 @@
-# skwic_website
- 

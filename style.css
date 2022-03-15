@@ -31,10 +31,11 @@ body {
 #top {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
     margin-top: -50px;
+    width: 100%;
 }
 
 #top img{
@@ -42,10 +43,10 @@ body {
     height: 100px;
 }
 #top ul{
-    width: 900px;
     display: flex;
     justify-content: flex-end;
     padding: right;
+    margin-right: 30px;
 }
 
 #top ul li{
@@ -66,6 +67,13 @@ body {
     color: #3D5CDB
 }
 
+.title_logo img{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 100px;
+}
 #arrange{
     display: flex;
    flex-wrap: wrap;
@@ -83,6 +91,12 @@ body {
     margin: 50px;
     margin-top: 180px;
 }
+.sns a{
+    color: black;
+}
+.sns a:hover{
+    color: #3D5CDB
+}
 .size{
     margin-bottom: 100px;
 }
@@ -94,10 +108,8 @@ body {
     width: 440px;
     height: 540px;
 }
-
 .title{
     margin: auto;
-    font-size: 30px;
 }
 .about{
     display: flex;
@@ -128,12 +140,11 @@ body {
     align-items: center;
 }
 .news .about_content{
-    width: 1000px;
+    width: 1200px;
     height: 200px;
 }
 .news .about_content p{
     text-align: center;
-    margin-bottom: 50px;
 }
 .intro-image{
     width: 350px;
@@ -205,12 +216,18 @@ body {
 }
 .coming_soon{
     text-align : center;
-    margin-bottom: 70px;
+    margin-bottom: 170px;
 }
 .txt-hide img{
-    width: 300px;
-    height: 300px;
-}   
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
+.txt-hide{
+    display: none;
+}
+    
 button.more {
     width: 120px;
     margin: 20px auto;
@@ -233,14 +250,6 @@ button.more::after {
 button.more.on-click::after{
     content: "Close...";
 }
-
-.map{
-    text-align: center;
-}
-iframe{
-    width: 600px;
-    height: 450px;
-}
 .contact_image{
     text-align: center;
 }
@@ -258,4 +267,26 @@ footer p{
     font-family: "font4";
     color: #3D5CDB;
     font-size: 1.1rem;
+}
+.school-club{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 1200px;
+}
+.school-club .activity-list{
+    width: 500px;
+    height: 300px;
+
+}
+.school-club img{
+    width: 300px;
+    height: 270px;
+    border-radius: 16px;
+}
+.school-club h3{
+    margin-top: 8px;
+}
+.school-club p{
+    margin-top: 16px;
 }
