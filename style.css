@@ -127,6 +127,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .about .about_content{
     width: 600px;
@@ -181,13 +182,13 @@ body {
 }
 
 .intro-text {
-    width: 350px;
+    width: 380px;
     margin: 0px 20px;
     align-items: center;
 }
 
 .intro-text p{
-    width: 350px;
+    width: 250px;
     text-align: left;
     line-height: 30px;
     font-family: 'Hiragino Kaku Gothic Pro';
