@@ -166,9 +166,6 @@ body {
     font-size: 53px;
     padding: 40px; 
 }
-.title{
-    align-items: center;
-}
 .title img{
     width: 300px;
     height: 100px;
@@ -250,13 +247,6 @@ button.more::after {
 button.more.on-click::after{
     content: "Close...";
 }
-.contact_image{
-    text-align: center;
-}
-.contact_image img{
-    width: 600px;
-    height: 450px;
-}
 footer p{
     display: block;
     height: 60px;
@@ -289,4 +279,31 @@ footer p{
 }
 .school-club p{
     margin-top: 16px;
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact_image{
+    text-align: center;
+}
+.contact_image img{
+    width: 600px;
+    height: 450px;
 }
