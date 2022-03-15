@@ -3,23 +3,20 @@
     padding : 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: "font1";
-    src: url(fonts/Futura-Boo.ttf);
-  }
-@font-face {
-    font-family: "font2";
-    src: url(fonts/Futura-LigObl.ttf);
+
+p.content {
+    font-family: 'Kosugi Maru', sans-serif;
+    line-height: 150%;
 }
-@font-face{
-    font-family: "font3";
-    src: url(fonts/Futura-Bol.ttf);
+h3.con {
+    font-family: 'Kosugi Maru', sans-serif;
+    line-height: 150%;
+}
+h2.content {
+    font-family: 'Kosugi Maru', sans-serif;
+    line-height: 150%;
 }
 
-@font-face {
-    font-family: "font4";
-    src: url(fonts/Futura-Lig.ttf);
-}
 body {
     background-image: url("images/skwic_back.png");
     background-size: cover;
@@ -191,7 +188,6 @@ body {
     width: 250px;
     text-align: left;
     line-height: 30px;
-    font-family: 'Hiragino Kaku Gothic Pro';
     margin: 0 auto;
 }
 
