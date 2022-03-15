@@ -110,6 +110,7 @@ body {
 }
 .title{
     margin: auto;
+    text-align: center;
 }
 .about{
     display: flex;
@@ -157,21 +158,12 @@ body {
     padding-bottom: 50px;
     margin-right: 20px;
 }
-.sub_title{
-    text-align: center;
-    color: #3D5CDB;
-    font-weight: bold;
-    font-family: "font3";
-    margin-top: 10px;    
-    font-size: 53px;
-    padding: 40px; 
-}
 .title img{
     width: 300px;
     height: 100px;
-    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
-
 .about_content{
     align-items: center;
     margin-bottom: 40px;
@@ -213,7 +205,6 @@ body {
 }
 .coming_soon{
     text-align : center;
-    margin-bottom: 170px;
 }
 .txt-hide img{
     display: block;
@@ -261,24 +252,22 @@ footer p{
 .school-club{
     display: flex;
     justify-content: space-between;
-    margin: 50px;
-    width: 1200px;
-}
-.school-club .activity-list{
-    width: 500px;
-    height: 300px;
-
+    margin: 30px 70px 70px 70px;
 }
 .school-club img{
-    width: 300px;
+    width: 350px;
     height: 270px;
     border-radius: 16px;
+}
+.act{
+    margin: 50px;
 }
 .school-club h3{
     margin-top: 8px;
 }
 .school-club p{
     margin-top: 16px;
+    width: 350px;
 }
 .activity{
     display: flex;
