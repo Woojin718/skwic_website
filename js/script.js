@@ -30,6 +30,7 @@ $(function(){
       $(".more").on("click", function() {
         $(this).toggleClass("on-click");
         $(".txt-hide").slideToggle(1000);
+        $("#news").css('margin-down','380px');
         $("#contact").css('margin-top','380px');
         $(".txt-hide").css('display','flex');
         $(".more").css('display','none');

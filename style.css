@@ -68,6 +68,7 @@ body {
 #top a:hover{
     color: #3D5CDB;
     background-color: rgba(211,211,211,0.5);
+    box-shadow: 0 5px 10px black;
 }
 .title_logo img{
     width: 350px;
@@ -210,6 +211,7 @@ body {
 }
 .coming_soon{
     text-align : center;
+    margin-bottom: 100px;
 }
 .txt-hide img{
     display: block;
@@ -333,3 +335,9 @@ footer p{
 .pic li:first-child{
     position:relative;
 }
+.v_line_fix {
+    margin: 0 auto;
+    width: 5px;
+    height: 70px;
+    background-color: black;
+  }
