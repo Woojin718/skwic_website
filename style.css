@@ -24,7 +24,6 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
   }
-
 #top {
     display: flex;
     align-items: center;
@@ -32,14 +31,10 @@ body {
     flex-wrap: wrap;
     position: fixed;
     margin-top: -50px;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
 }
 
-#top img{
-    width: 200px;
-    height: 100px;
-}
 #top ul{
     display: flex;
     justify-content: flex-end;
@@ -67,9 +62,12 @@ body {
     background-color: rgba(211,211,211,0.5);
     box-shadow: 0 5px 10px black;
 }
+#top img{
+    width: 200px;
+    height: 100px;
+}
 #top .logo img{
     width: 150px;
-    height: 100px;
 }
 .title_logo img{
     width: 320px;
@@ -227,7 +225,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
 }
 .intro-down .intro-text p{
     text-align: center;
@@ -277,6 +274,7 @@ footer p{
     font-family: "font4";
     color: #3D5CDB;
     font-size: 0.8rem;
+    background-color: rgba(211,211,211,0.5);
 }
 .school-club{
     display: flex;
@@ -285,6 +283,7 @@ footer p{
 }
 .school-club img{
     width: 400px;
+    height: 280px;
     border-radius: 16px;
 }
 .act{
@@ -364,9 +363,6 @@ footer p{
 
   
 @media screen and (max-width: 480px){ 
-    body {
-        min-height: 50vh;
-      }
     #top ul{
         margin-right: 0px;
         display: none;
@@ -377,9 +373,11 @@ footer p{
     .pic{
         display: none;
     }
+    #top {
+        margin-top: 0px;
+    }
     #top .logo img{
         width: 120px;
-        height: 60px;
         margin-left: 0;
         margin-top: 20px;
     }
@@ -426,7 +424,7 @@ footer p{
     }
     .intro-image-logo{
         width: 300px;
-        height: 200px;
+        height: 170px;
         margin: 50px;
     }
     .intro-image-logo img{
@@ -437,7 +435,7 @@ footer p{
     }
     .intro-image{
         width: 200px;
-        height: 250px;
+        height: 220px;
     }
     .intro-image img{
         width : 100%;
@@ -461,6 +459,7 @@ footer p{
         width: 200px;
         margin: 0px 20px;
         align-items: center;
+        margin-bottom: 20px;
     }
     
     .intro-text p{
@@ -478,17 +477,29 @@ footer p{
         text-align: left;
         margin-left: 10px;
     }
-
+    .intro-up{
+        background-color: rgba(211,211,211,0.5);
+    }
+    .member{
+        background-color: rgba(211,211,211,0.5);
+    }
+    .intro-down{
+        flex-direction: column-reverse;
+        background-color: rgba(211,211,211,0.5);
+    }
     .about .about_content p{
         width: 150%;
         text-align: center;
     }
-    
+    .coming_soon{
+        padding: 30px;
+    }
     .news{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: rgba(211,211,211,0.5);
     }
     .news .about_content{
         width: 300px;
@@ -513,6 +524,15 @@ footer p{
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .activity{
+        background-color: rgba(211,211,211,0.5);
+    }
+    .about{
+        background-color: rgba(211,211,211,0.5);
+    }
+    .member{
+        background-color: rgba(211,211,211,0.5);
     }
     .school-club h3{
         margin-top: 8px;
@@ -547,7 +567,9 @@ footer p{
         display: none;
         flex-direction: column;
     }
-        
+    .wrap {
+        overflow: hidden;
+    }  
     footer p{
         font-size: 0.2rem;
     }
