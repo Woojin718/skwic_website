@@ -703,4 +703,7 @@ footer p{
         width: 200px;
         margin-top: 30px;
     }
+    body {
+        background-image: url("images/white.png");
+      }
 }
