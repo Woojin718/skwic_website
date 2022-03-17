@@ -33,3 +33,7 @@ $(function(){
         $(".txt-hide").css('display','flex');
         $(".more").css('display','none');
         });
+
+        $('#nav-content li a').on('click', function(event) {
+          $('#nav-input').prop('checked', false);
+        });
