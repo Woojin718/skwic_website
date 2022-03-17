@@ -94,11 +94,8 @@ body {
     margin: 50px;
     margin-top: 180px;
 }
-.sns a{
-    color: black;
-}
 .sns a:hover{
-    color: #3D5CDB
+    color: black;
 }
 .size{
     margin-bottom: 100px;
@@ -460,7 +457,7 @@ footer p{
     margin-left: 25px;
   }
   .crayon-orange-g {
-    background: linear-gradient(transparent 55%,#df4343 55%,#F2CFCD 70%,#df4343);
+    background: linear-gradient(transparent 55%,#F2CFCD 55%, #df4343 70%,#F2CFCD);
     font-weight: bold;
     padding-bottom: 5px;
   }
@@ -470,7 +467,7 @@ footer p{
     padding-bottom: 5px;
   }
   .crayon-orange-g-2 {
-    background: linear-gradient(transparent 55%,#E8FFFF 55%,#C4DEFF 70%,#E8FFFF);
+    background: linear-gradient(transparent 55%,#77a2ee 55%,#7499db 70%,#77a2ee);
     font-weight: bold;
     padding-bottom: 5px;
   }
