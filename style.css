@@ -481,7 +481,7 @@ footer p{
   }
 
 @media screen and (max-width: 480px){ 
-    #top ul{
+    #top .nav ul{
         margin-right: 0px;
         display: none;
     }
@@ -693,16 +693,14 @@ footer p{
         padding: 20px;
         display: block;
        }
-    #nav-content ul{
-        margin-top: 500px;
-        margin-left: 20px;
-    }
     #nav-content li{
         padding: 10px;
     }
+    #nav-content ul{
+        margin-top: 40px;;
+    }
     #nav-content img{
-        width: 280px;
-        margin-left: 25px;
-        margin-top: 200px;
+        width: 200px;
+        margin-top: 30px;
     }
 }
