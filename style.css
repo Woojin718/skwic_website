@@ -279,6 +279,7 @@ footer p{
 .school-club img{
     width: 400px;
     height: 280px;
+    object-fit: cover;
     border-radius: 16px;
 }
 .act{
